@@ -33,7 +33,7 @@ module.exports = {
   p('renders'),
   SoundCloud({ type: 'track', id: 599883213 }),
 
-  h3({ id: 'usage-playlists'}, 'playlists'),
+  h3({ id: 'usage-playlists' }, 'playlists'),
   p('the playlists type shows a playlist'),
   Pre("SoundCloud({ type: 'playlist', src: '613360614' })"),
   p('renders'),
@@ -45,7 +45,7 @@ module.exports = {
   p('renders'),
   SoundCloud({ type: 'user', id: 151832569, hide_related: false }),
 
-  h2({ id: 'usage-default-args' }, 'default arguments'),
+  h2({ id: 'usage-default-arguments' }, 'default arguments'),
   p('@magic tries to keep the default arguments for soundcloud sane.'),
   Pre(`{
   visual = true,         // set to false to get a smaller view with 166px height
