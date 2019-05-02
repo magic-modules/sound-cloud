@@ -1,0 +1,48 @@
+{
+  "name": "@magic-modules/sound-cloud",
+  "homepage": "https://magic-modules.github.io/sound-cloud",
+  "author": "Wizards & Witches",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "start": "t -p",
+    "format": "f -w --exclude docs",
+    "test": "t --exclude docs example config.js",
+    "build": "NODE_ENV=production magic build",
+    "prod": "NODE_ENV=production magic build serve --watch src",
+    "dev": "magic dev --watch src",
+    "calls": "calls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magic-modules/languageswitch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/magic-modules/languageswitch/issues"
+  },
+  "devDependencies": {
+    "@magic-modules/gitbadges": "github:magic-modules/gitbadges",
+    "@magic-modules/pre": "github:magic-modules/pre",
+    "@magic-themes/docs": "github:magic-themes/docs",
+    "@magic/core": "github:magic/core",
+    "@magic/test": "0.0.12"
+  },
+  "license": "AGPL-3.0",
+  "description": "@magic SoundCloud module. embeds soundcloud tracks, playlist and user widgets",
+  "keywords": [
+    "syntax",
+    "magic",
+    "soundcloud",
+    "component",
+    "embed"
+  ],
+  "contributors": [
+    {
+      "name": "jascha ehrenreich",
+      "github": "jaeh"
+    }
+  ]
+}
