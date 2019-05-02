@@ -29,7 +29,7 @@ const SoundCloud = props => {
 
   if (!height) {
     if (!visual) {
-     height = 166
+      height = 166
     } else if (type === 'tracks') {
       height = 200
     } else {
