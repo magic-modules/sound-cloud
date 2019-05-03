@@ -1,10 +1,10 @@
-module.exports = () => [
-  h1('@magic-modules/sound-cloud'),
+module.exports = state => [
+  h1(state.title),
   p([
     'this is the ',
     Link({ to: 'https://github.com/magic-modules' }, '@magic-modules'),
     ' SoundCloud component.',
-    'it embeds soundcloud tracks, playlist and user widgets.',
+    state.description,
   ]),
 
   GitBadges({

@@ -1,5 +1,7 @@
 module.exports = {
   state: {
+    title: '@magic-modules/sound-cloud',
+    description: 'embeds soundcloud tracks, playlist and user widgets.',
     logotext: 'sound-cloud',
     menu: [
       { to: '/#installation', text: 'installation' },
