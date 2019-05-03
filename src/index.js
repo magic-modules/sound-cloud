@@ -41,18 +41,19 @@ const SoundCloud = props => {
     const host = 'https://w.soundcloud.com/player'
     const url = `https://api.soundcloud.com/${type}/${id}`
 
-    const params = LIB.URL.serializeParams({
-      url,
-      show_teaser,
-      show_reposts,
-      show_user,
-      show_comments,
-      auto_play,
-      hide_related,
-      visual,
+    src = LIB.URI.encode({
+      host,
+      params: {
+        url,
+        show_teaser,
+        show_reposts,
+        show_user,
+        show_comments,
+        auto_play,
+        hide_related,
+        visual,
+      },
     })
-
-    src = [host, params].join('?')
   }
 
   const p = {
@@ -71,7 +72,7 @@ const SoundCloud = props => {
 }
 
 SoundCloud.lib = {
-  URL: require.resolve('./lib/url'),
+  URI: require.resolve('@magic-client/uri'),
 }
 
 module.exports = SoundCloud
