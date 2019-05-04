@@ -14,15 +14,6 @@ const SoundCloud = props => {
   } = props
 
   let { src = false, height = false, type = 'tracks' } = props
-
-  if (type === 'track') {
-    type = 'tracks'
-  } else if (type === 'playlist') {
-    type = 'playlists'
-  } else if (type === 'user') {
-    type = 'users'
-  }
-
   if (!id && !src) {
     return
   }
@@ -38,6 +29,14 @@ const SoundCloud = props => {
   }
 
   if (!src) {
+    if (type === 'track') {
+      type = 'tracks'
+    } else if (type === 'playlist') {
+      type = 'playlists'
+    } else if (type === 'user') {
+      type = 'users'
+    }
+
     const host = 'https://w.soundcloud.com/player'
     const url = `https://api.soundcloud.com/${type}/${id}`
 
@@ -68,11 +67,29 @@ const SoundCloud = props => {
     p.allow = 'autoplay'
   }
 
+  CHECK_PROPS({ src, height, type }, SoundCloud.props, 'SoundCloud')
+
   return iframe(p)
 }
 
 SoundCloud.lib = {
   URI: require.resolve('@magic-client/uri'),
 }
+
+SoundCloud.props = [
+  { key: 'src', type: 'string', required: true },
+  { key: 'id', type: 'boolean' },
+  { key: 'visual', type: 'boolean' },
+  { key: 'show_teaser', type: 'boolean' },
+  { key: 'show_reposts', type: 'boolean' },
+  { key: 'show_user', type: 'boolean' },
+  { key: 'show_comments', type: 'boolean' },
+  { key: 'auto_play', type: 'boolean' },
+  { key: 'hide_related', type: 'boolean' },
+  { key: 'width', type: ['string', 'number'] },
+  { key: 'height', type: ['string', 'number', 'boolean'] },
+  { key: 'scrolling', type: ['string'] },
+  { key: 'frameborder', type: ['string'] },
+]
 
 module.exports = SoundCloud
