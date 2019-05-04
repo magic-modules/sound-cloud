@@ -80,8 +80,8 @@ SoundCloud({ type: 'users', src: '613360614' })
 [npm-url]: https://www.npmjs.com/package/@magic-modules/sound-cloud
 [travis-image]: https://api.travis-ci.org/magic-modules/sound-cloud.svg?branch=master
 [travis-url]: https://travis-ci.org/magic-modules/sound-cloud
-[appveyor-image]: https://img.shields.io/appveyor/ci/magic-modules/sound-cloud/master.svg
-[appveyor-url]: https://ci.appveyor.com/project/magic-modules/sound-cloud/branch/master
+[appveyor-image]: https://img.shields.io/appveyor/ci/magicmodules/sound-cloud/master.svg
+[appveyor-url]: https://ci.appveyor.com/project/magicmodules/sound-cloud/branch/master
 [coveralls-image]: https://coveralls.io/repos/github/magic-modules/sound-cloud/badge.svg
 [coveralls-url]: https://coveralls.io/github/magic-modules/sound-cloud
 [greenkeeper-image]: https://badges.greenkeeper.io/magic-modules/sound-cloud.svg
