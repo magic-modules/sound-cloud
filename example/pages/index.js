@@ -31,7 +31,7 @@ module.exports = {
   p('the track type shows a single track'),
   Pre("SoundCloud({ type: 'track', src: '599883213' })"),
   p('renders'),
-  SoundCloud({ type: 'track', id: 599883213 }),
+  SoundCloud({ type: 'track', id: 599883213, visual: false }),
 
   h3({ id: 'usage-playlists' }, 'playlists'),
   p('the playlists type shows a playlist'),
@@ -41,9 +41,9 @@ module.exports = {
 
   h3({ id: 'usage-users' }, 'users'),
   p('the users type shows a user profile'),
-  Pre("SoundCloud({ type: 'users', src: '613360614' })"),
+  Pre("SoundCloud({ type: 'user', src: '151832569' })"),
   p('renders'),
-  SoundCloud({ type: 'user', id: 151832569, hide_related: false }),
+  SoundCloud({ type: 'user', id: 151832569 }),
 
   h2({ id: 'usage-default-arguments' }, 'default arguments'),
   p('@magic tries to keep the default arguments for soundcloud sane.'),
