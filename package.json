@@ -27,7 +27,7 @@
     "@magic-client/uri": "github:magic-client/uri"
   },
   "devDependencies": {
-    "@magic-modules/gitbadges": "github:magic-modules/gitbadges",
+    "@magic-modules/git-badges": "github:magic-modules/git-badges",
     "@magic-modules/pre": "github:magic-modules/pre",
     "@magic-themes/docs": "github:magic-themes/docs",
     "@magic/core": "github:magic/core",
