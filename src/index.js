@@ -1,7 +1,7 @@
 const SoundCloud = props => {
   const {
     id = false,
-    visual = true,
+    visual = props.type.startsWith('track') ? false : true,
     show_teaser = false,
     show_reposts = false,
     show_user = true,
