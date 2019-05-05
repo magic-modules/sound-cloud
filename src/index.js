@@ -77,7 +77,7 @@ SoundCloud.lib = {
 }
 
 SoundCloud.props = [
-  { key: 'src', type: 'string', required: true },
+  { key: 'src', type: ['string', 'number'], required: ['id'] },
   { key: 'id', type: 'boolean' },
   { key: 'visual', type: 'boolean' },
   { key: 'show_teaser', type: 'boolean' },
