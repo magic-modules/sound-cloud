@@ -24,7 +24,7 @@
     "url": "https://github.com/magic-modules/languageswitch/issues"
   },
   "dependencies": {
-    "@magic-client/uri": "github:magic-client/uri"
+    "@magic-libraries/uri": "github:magic-libraries/uri"
   },
   "devDependencies": {
     "@magic-modules/git-badges": "github:magic-modules/git-badges",

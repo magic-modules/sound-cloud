@@ -73,7 +73,7 @@ const SoundCloud = props => {
 }
 
 SoundCloud.lib = {
-  URI: require.resolve('@magic-client/uri'),
+  URI: require.resolve('@magic-libraries/uri'),
 }
 
 SoundCloud.props = [
