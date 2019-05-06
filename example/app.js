@@ -5,7 +5,6 @@ module.exports = {
     logotext: 'sound-cloud',
     menu: [
       { to: '/#installation', text: 'installation' },
-      { to: '/#require', text: 'require' },
       {
         to: '/#usage',
         text: 'usage',

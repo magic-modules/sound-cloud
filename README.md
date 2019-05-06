@@ -18,17 +18,6 @@ it embeds soundcloud tracks, playlist and user widgets.
 npm install magic-modules/sound-cloud
 ```
 
-### <a name="require"></a>require
-
-first, add the component to the /assets/index.js file
-
-```javascript
-// assets/index.js
-module.exports = {
-  //...other exports
-  SoundCloud: require('@magic-modules/sound-cloud
-```
-
 ### <a name="usage"></a>usage
 in a page or component
 ```javascript
