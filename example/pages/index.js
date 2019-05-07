@@ -21,19 +21,19 @@ module.exports = state => [
 
   h3({ id: 'usage-tracks' }, 'tracks'),
   p('the track type shows a single track'),
-  Pre("SoundCloud({ type: 'track', src: '599883213' })"),
+  Pre("SoundCloud({ type: 'track', id: '599883213' })"),
   p('renders'),
   SoundCloud({ type: 'track', id: 599883213, visual: false }),
 
   h3({ id: 'usage-playlists' }, 'playlists'),
   p('the playlists type shows a playlist'),
-  Pre("SoundCloud({ type: 'playlist', src: '613360614' })"),
+  Pre("SoundCloud({ type: 'playlist', id: '613360614' })"),
   p('renders'),
   SoundCloud({ type: 'playlist', id: 293975290 }),
 
   h3({ id: 'usage-users' }, 'users'),
   p('the users type shows a user profile'),
-  Pre("SoundCloud({ type: 'user', src: '151832569' })"),
+  Pre("SoundCloud({ type: 'user', id: '151832569' })"),
   p('renders'),
   SoundCloud({ type: 'user', id: 151832569 }),
 
