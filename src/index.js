@@ -1,7 +1,8 @@
 const SoundCloud = props => {
+  let { src = false, height = false, type = 'tracks' } = props
   const {
     id = false,
-    visual = props.type.startsWith('track') ? false : true,
+    visual = type.startsWith('track') ? false : true,
     show_teaser = false,
     show_reposts = false,
     show_user = true,
@@ -13,7 +14,6 @@ const SoundCloud = props => {
     frameborder = 'no',
   } = props
 
-  let { src = false, height = false, type = 'tracks' } = props
   if (!id && !src) {
     return
   }
@@ -67,7 +67,7 @@ const SoundCloud = props => {
     p.allow = 'autoplay'
   }
 
-  CHECK_PROPS({ src, height, type }, SoundCloud.props, 'SoundCloud')
+  CHECK_PROPS({ ...props, src, height, type }, SoundCloud.props, 'SoundCloud')
 
   return iframe(p)
 }
@@ -77,8 +77,9 @@ SoundCloud.lib = {
 }
 
 SoundCloud.props = [
+  { type: 'string' },
   { key: 'src', type: ['string', 'number'], required: ['id'] },
-  { key: 'id', type: 'boolean' },
+  { key: 'id', type: ['number', 'string'] },
   { key: 'visual', type: 'boolean' },
   { key: 'show_teaser', type: 'boolean' },
   { key: 'show_reposts', type: 'boolean' },
