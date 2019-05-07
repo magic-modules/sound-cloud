@@ -7,10 +7,7 @@ module.exports = state => [
     state.description,
   ]),
 
-  GitBadges({
-    project: 'magic-modules/sound-cloud',
-    appveyor: 'jaeh/sound-cloud',
-  }),
+  GitBadges('magic-modules/sound-cloud'),
 
   h2({ id: 'installation' }, 'installation:'),
   Pre('npm install magic-modules/sound-cloud'),
