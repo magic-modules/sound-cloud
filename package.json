@@ -1,8 +1,10 @@
 {
   "name": "@magic-modules/sound-cloud",
-  "homepage": "https://magic-modules.github.io/sound-cloud",
-  "author": "Wizards & Witches",
   "version": "0.0.1",
+  "author": "Wizards & Witches",
+  "description": "@magic SoundCloud module. embeds soundcloud tracks, playlist and user widgets",
+  "homepage": "https://magic-modules.github.io/sound-cloud",
+  "license": "AGPL-3.0",
   "main": "src/index.js",
   "files": [
     "src"
@@ -18,10 +20,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/magic-modules/languageswitch.git"
+    "url": "git+https://github.com/magic-modules/sound-cloud.git"
   },
   "bugs": {
-    "url": "https://github.com/magic-modules/languageswitch/issues"
+    "url": "https://github.com/magic-modules/sound-cloud/issues"
   },
   "dependencies": {
     "@magic-libraries/uri": "github:magic-libraries/uri"
@@ -33,8 +35,6 @@
     "@magic/core": "github:magic/core",
     "@magic/test": "0.0.12"
   },
-  "license": "AGPL-3.0",
-  "description": "@magic SoundCloud module. embeds soundcloud tracks, playlist and user widgets",
   "keywords": [
     "syntax",
     "magic",
