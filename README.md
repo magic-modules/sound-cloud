@@ -19,7 +19,7 @@ npm install magic-modules/sound-cloud
 ```
 
 ### <a name="usage"></a>usage
-in a page or component
+in a page or module View
 ```javascript
 module.exports = {\n  View: () => SoundCloud(props),\n}
 ```

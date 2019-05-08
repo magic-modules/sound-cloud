@@ -13,7 +13,7 @@ module.exports = state => [
   Pre('npm install magic-modules/sound-cloud'),
 
   h2({ id: 'usage' }, 'usage:'),
-  p('in a page or component'),
+  p('in a page or module View'),
   Pre('module.exports = {\n  View: () => SoundCloud(props),\n}'),
 
   h3({ id: 'usage-tracks' }, 'tracks'),
