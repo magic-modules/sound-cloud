@@ -1,0 +1,3 @@
+user-agent: *
+allow: /
+sitemap: https://magic-modules.github.io/sound-cloud/sitemap.xml
