@@ -5,7 +5,9 @@
   "description": "@magic SoundCloud module. embeds soundcloud tracks, playlist and user widgets",
   "homepage": "https://magic-modules.github.io/sound-cloud",
   "license": "AGPL-3.0",
-  "main": "src/index.js",
+  "main": "src/index.mjs",
+  "module": "src/index.mjs",
+  "type": "module",
   "files": [
     "src"
   ],
