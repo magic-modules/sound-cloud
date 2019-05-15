@@ -1,4 +1,4 @@
-const SoundCloud = props => {
+export const View = props => {
   let { src = false, height = false, type = 'tracks' } = props
   const {
     id = false,
@@ -67,16 +67,16 @@ const SoundCloud = props => {
     p.allow = 'autoplay'
   }
 
-  CHECK_PROPS({ ...props, src, height, type }, SoundCloud.props, 'SoundCloud')
+  CHECK_PROPS({ ...props, src, height, type }, propTypes, 'SoundCloud')
 
   return iframe(p)
 }
 
-SoundCloud.lib = {
-  URI: require.resolve('@magic-libraries/uri'),
+export const lib = {
+  URI: '@magic-libraries/uri',
 }
 
-SoundCloud.props = [
+export const propTypes = [
   { type: 'string' },
   { key: 'src', type: ['string', 'number'], required: ['id'] },
   { key: 'id', type: ['number', 'string'] },
@@ -92,5 +92,3 @@ SoundCloud.props = [
   { key: 'scrolling', type: ['string'] },
   { key: 'frameborder', type: ['string'] },
 ]
-
-module.exports = SoundCloud
