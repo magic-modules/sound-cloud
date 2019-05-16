@@ -67,7 +67,7 @@ export const View = props => {
     p.allow = 'autoplay'
   }
 
-  CHECK_PROPS({ ...props, src, height, type }, propTypes, 'SoundCloud')
+  CHECK_PROPS(p, propTypes, 'SoundCloud')
 
   return iframe(p)
 }
