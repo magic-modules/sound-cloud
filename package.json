@@ -5,12 +5,9 @@
   "description": "@magic SoundCloud module. embeds soundcloud tracks, playlist and user widgets",
   "homepage": "https://magic-modules.github.io/sound-cloud",
   "license": "AGPL-3.0",
-  "main": "src/index.mjs",
-  "module": "src/index.mjs",
-  "type": "module",
-  "files": [
-    "src"
-  ],
+  "engines": {
+    "node": ">=12.2.0"
+  },
   "scripts": {
     "start": "t -p",
     "format": "f -w --exclude docs",
@@ -27,6 +24,12 @@
   "bugs": {
     "url": "https://github.com/magic-modules/sound-cloud/issues"
   },
+  "main": "src/index.mjs",
+  "module": "src/index.mjs",
+  "type": "module",
+  "files": [
+    "src"
+  ],
   "dependencies": {
     "@magic-libraries/uri": "github:magic-libraries/uri"
   },
