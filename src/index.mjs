@@ -40,7 +40,7 @@ export const View = props => {
     const host = 'https://w.soundcloud.com/player'
     const url = `https://api.soundcloud.com/${type}/${id}`
 
-    src = LIB.URI.encode({
+    src = lib.uri.encode({
       host,
       params: {
         url,
@@ -70,10 +70,6 @@ export const View = props => {
   CHECK_PROPS(p, propTypes, 'SoundCloud')
 
   return iframe(p)
-}
-
-export const lib = {
-  URI: '@magic-libraries/uri',
 }
 
 export const propTypes = [
