@@ -1,4 +1,4 @@
-module.exports = state => [
+export const View = state => [
   h1(state.title),
   p([
     'this is the ',
@@ -37,18 +37,18 @@ module.exports = state => [
   h2({ id: 'usage-default-arguments' }, 'default arguments'),
   p('@magic tries to keep the default arguments for soundcloud sane.'),
   Pre(`{
-  visual = true,         // set to false to get a smaller view with 166px height
-  show_teaser = false,   // show an overlay with soundcloud ads
-  show_reposts = false,  // show reposts for this track/user/playlist
-  show_user = true,      // show the user that uploaded the track or playlist
-  show_comments = false, // show comments people left
-  auto_play = false,     // auto play video (will not work in many browsers anyways)
-  hide_related = true,   // hide artists that might match or not
-  height = 300 || 166,   // default height for visual true || false
-  width = '100%',
-  scrolling = 'no',
-  frameborder = 'no',
-}`),
+    visual = true,         // set to false to get a smaller view with 166px height
+    show_teaser = false,   // show an overlay with soundcloud ads
+    show_reposts = false,  // show reposts for this track/user/playlist
+    show_user = true,      // show the user that uploaded the track or playlist
+    show_comments = false, // show comments people left
+    auto_play = false,     // auto play video (will not work in many browsers anyways)
+    hide_related = true,   // hide artists that might match or not
+    height = 300 || 166,   // default height for visual true || false
+    width = '100%',
+    scrolling = 'no',
+    frameborder = 'no',
+  }`),
 
   h2({ id: 'source' }, 'source'),
   p([
