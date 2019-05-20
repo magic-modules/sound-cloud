@@ -14,7 +14,7 @@ export const View = state => [
 
   h2({ id: 'usage' }, 'usage:'),
   p('in a page or module View'),
-  Pre('module.exports = {\n  View: () => SoundCloud(props),\n}'),
+  Pre('export const View = () => SoundCloud(props)'),
 
   h3({ id: 'usage-tracks' }, 'tracks'),
   p('the track type shows a single track'),
