@@ -1,9 +1,9 @@
 {
-  "css": "sha384-1j1HRz/FO8B+3YNmNok6jI3MKRyIqvymonsBzC96mE9/BwH4XaDW0aVWZsyziI0w",
-  "js": "sha384-49WQc0AZVoQiTe93OSiKXBlH8eP5tv3lgrTZGg7fRzFr8cuU00pRpjVbP9v1hqrR",
+  "css": "sha384-TGYwyYz6gXQ96zzzK/b/Y69kdnZSxh//+QIEZzlX/sE+QetkBGodbfvKGd7kYBmB",
+  "js": "sha384-YeCbHEWxvOsuo4YOFqDzrbyjto2+Pcr/TfRYQ1+aAh2TeP3ATvkeuNnCN8FCmsGz",
   "pages": {
-    "/sound-cloud/": "sha384-+FkScBUYLCkRNt+31BECWjaDWLisrxO66RdsRgI8pJIzpgdxYmKIlqZxMNbOMBpe",
-    "/sound-cloud/404/": "sha384-mD2Hmzrgz+WJ+UgCzSxAWPuSYufot405n0hGZMo2QxkxIalvF4V1B1Js9mKgnbzl"
+    "/sound-cloud/": "sha384-2Ltq1eI68JxgeTiaaywluzPz9JZaAU0nr2B6VtlpUGLcf7IRFz+iPoRkAIsZNrz2",
+    "/sound-cloud/404/": "sha384-rPDZhtomzi2ajIpSXXWVVtf36sfka3L0ir2/PxJkJFiCscXlPEQaSPtuw4H9M/uq"
   },
   "static": {
     "/favicon.ico": "sha384-pf51ay6pZCj3+XlVCPmCKLDFpLj7QP+2heR+/n08WgS7Bve7JMkgubHOkwLzaTr+",
