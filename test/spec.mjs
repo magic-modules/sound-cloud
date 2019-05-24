@@ -8,9 +8,8 @@ export default [
     info: 'expect SoundCloud.View to be a function',
   },
   {
-    fn: () => SoundCloud.propTypes,
+    fn: () => SoundCloud.propTypes.SoundCloud,
     expect: is.array,
     info: 'expect SoundCloud.propTypes to be an array',
   },
-  { fn: () => SoundCloud.lib, expect: is.object, info: 'expect SoundCloud.lib to be an object' },
 ]
