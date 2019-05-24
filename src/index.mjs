@@ -72,19 +72,21 @@ export const View = props => {
   return iframe(p)
 }
 
-export const propTypes = [
-  { type: 'string' },
-  { key: 'src', type: ['string', 'number'], required: ['id'] },
-  { key: 'id', type: ['number', 'string'] },
-  { key: 'visual', type: 'boolean' },
-  { key: 'show_teaser', type: 'boolean' },
-  { key: 'show_reposts', type: 'boolean' },
-  { key: 'show_user', type: 'boolean' },
-  { key: 'show_comments', type: 'boolean' },
-  { key: 'auto_play', type: 'boolean' },
-  { key: 'hide_related', type: 'boolean' },
-  { key: 'width', type: ['string', 'number'] },
-  { key: 'height', type: ['string', 'number', 'boolean'] },
-  { key: 'scrolling', type: ['string'] },
-  { key: 'frameborder', type: ['string'] },
-]
+export const propTypes = {
+  SoundCloud: [
+    { type: 'string' },
+    { key: 'src', type: ['string', 'number'], required: ['id'] },
+    { key: 'id', type: ['number', 'string'] },
+    { key: 'visual', type: 'boolean' },
+    { key: 'show_teaser', type: 'boolean' },
+    { key: 'show_reposts', type: 'boolean' },
+    { key: 'show_user', type: 'boolean' },
+    { key: 'show_comments', type: 'boolean' },
+    { key: 'auto_play', type: 'boolean' },
+    { key: 'hide_related', type: 'boolean' },
+    { key: 'width', type: ['string', 'number'] },
+    { key: 'height', type: ['string', 'number', 'boolean'] },
+    { key: 'scrolling', type: ['string'] },
+    { key: 'frameborder', type: ['string'] },
+  ],
+}
