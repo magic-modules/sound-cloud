@@ -1,5 +1,6 @@
 export const View = state => [
   h1(state.title),
+
   p([
     'this is the ',
     Link({ to: 'https://github.com/magic-modules' }, '@magic-modules'),
@@ -60,4 +61,6 @@ export const View = state => [
     ' and gets built and published to github using ',
     Link({ to: 'https://github.com/magic/core' }, '@magic/core'),
   ]),
+
+  LightSwitch(state),
 ]
