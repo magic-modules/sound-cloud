@@ -62,6 +62,15 @@ SoundCloud({ type: 'users', src: '613360614' })
 }
 ```
 
+#### changelog
+
+##### 0.0.1
+first commit
+
+##### 0.0.2
+use @magic npm packages instead of github for installs
+
+
 [magic-module-url]: https://github.com/magic-modules/
 [doc-url]: https://magic-modules.github.io/sound-cloud/
 
