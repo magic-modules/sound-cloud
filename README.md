@@ -15,7 +15,7 @@ it embeds soundcloud tracks, playlist and user widgets.
 
 ### <a name="installation"></a>installation:
 ```bash
-npm install magic-modules/sound-cloud
+npm install @magic-modules/sound-cloud
 ```
 
 ### <a name="usage"></a>usage

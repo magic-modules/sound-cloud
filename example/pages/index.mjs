@@ -11,7 +11,7 @@ export const View = state => [
   GitBadges('magic-modules/sound-cloud'),
 
   h2({ id: 'installation' }, 'installation:'),
-  Pre('npm install magic-modules/sound-cloud'),
+  Pre('npm install @magic-modules/sound-cloud'),
 
   h2({ id: 'usage' }, 'usage:'),
   p('in a page or module View'),
