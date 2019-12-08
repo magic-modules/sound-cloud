@@ -43,11 +43,11 @@
     "@magic/test": "0.1.23"
   },
   "keywords": [
-    "syntax",
     "magic",
+    "magic-modules",
     "soundcloud",
-    "component",
-    "embed"
+    "embed",
+    "hyperapp"
   ],
   "contributors": [
     {
