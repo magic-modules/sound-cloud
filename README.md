@@ -70,6 +70,11 @@ first commit
 ##### 0.0.2
 use @magic npm packages instead of github for installs
 
+##### 0.0.3
+use @magic npm packages instead of github for installs for @magic-libraries/uri
+
+##### 0.0.4 - unreleased
+...
 
 [magic-module-url]: https://github.com/magic-modules/
 [doc-url]: https://magic-modules.github.io/sound-cloud/
