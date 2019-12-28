@@ -1,9 +1,9 @@
 {
   "css": "sha384-Cv+H2dH5R9hvL1v9TDR9xKbuGtV1q2tg9hz/YkTg5z5RLx6eGB5J0XmfyghimTp1",
-  "js": "sha384-tXJnYQIKyyORD1FoYoxAKjpl1RpHoJsUbT8D6mTPx6FP49xBWYgYKg7PVOYAhzB5",
+  "js": "sha384-kvTDoukXdsoFyWuQhog4peBNuZ9bwAD+wrjqipeLmkGpQObRjROSXyJxOJuOita1",
   "pages": {
-    "/sound-cloud/": "sha384-+nHTr1tEg5auCokouNeOGVWnzYucKZYlRP5p2wjpNNFBWn8pXdvcM2oqnQ3fgzwy",
-    "/sound-cloud/404/": "sha384-/B7eWzw5Ah9Q7eazTCboRzYAUroHgv3c7nWla5XxGjxDUx3SVzhcT92LvnZKkrKw"
+    "/sound-cloud/": "sha384-tCCCWdpVNQTydwz4yixslMpNZnKymg2yyOy7zJ6qq716o1VL7CLB4FsU49rSJNLk",
+    "/sound-cloud/404/": "sha384-u+F7kRU2+CNhWCXfcVNGUIvSuj4gPDNPnUlCoUhFM9U51v95fhUJdAtT9B97ToT/"
   },
   "static": {
     "/favicon.ico": "sha384-pf51ay6pZCj3+XlVCPmCKLDFpLj7QP+2heR+/n08WgS7Bve7JMkgubHOkwLzaTr+",
