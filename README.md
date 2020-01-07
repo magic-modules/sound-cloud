@@ -67,6 +67,9 @@ SoundCloud({ type: 'users', src: '613360614' })
 ##### 0.0.1
 first release
 
+##### 0.0.2
+require node 13.5.0
+
 [magic-module-url]: https://github.com/magic-modules/
 [doc-url]: https://magic-modules.github.io/sound-cloud/
 
