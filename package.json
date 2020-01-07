@@ -6,8 +6,9 @@
   "homepage": "https://magic-modules.github.io/sound-cloud",
   "license": "AGPL-3.0",
   "engines": {
-    "node": ">=12.2.0"
+    "node": ">=13.5.0"
   },
+  "engineStrict": true,
   "scripts": {
     "start": "t -p",
     "format": "f -w --exclude docs",
