@@ -31,7 +31,7 @@
     "src"
   ],
   "dependencies": {
-    "@magic-libraries/uri": "0.0.1"
+    "@magic-libraries/uri": "0.0.2"
   },
   "devDependencies": {
     "@magic-modules/gdpr": "0.0.12",
