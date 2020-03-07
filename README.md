@@ -68,10 +68,11 @@ SoundCloud({ type: 'users', src: '613360614' })
 first release
 
 ##### 0.0.2
-require node 13.5.0
+* require node 13.5.0
+* also accept props in the form of a string
 
 ##### 0.0.3 - unreleased
-update @magic-libraries/uri
+...
 
 [magic-module-url]: https://github.com/magic-modules/
 [doc-url]: https://magic-modules.github.io/sound-cloud/
