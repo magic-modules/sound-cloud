@@ -1,5 +1,12 @@
-export const View = props => {
+export const View = (props = {}) => {
+  if (typeof props === 'string') {
+    props = {
+      id: props,
+    }
+  }
+
   let { src = false, height = false, type = 'tracks' } = props
+
   const {
     id = false,
     visual = type.startsWith('track') ? false : true,
