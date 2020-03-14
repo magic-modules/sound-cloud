@@ -6,7 +6,7 @@ SoundCloud component.
 
 ${description}
 
-<GitBadges>magic-modules/sound-cloud</GitBadges>
+<GitBadges>@magic-modules/sound-cloud</GitBadges>
 
 ## installation
 
