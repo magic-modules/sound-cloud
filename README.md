@@ -71,7 +71,11 @@ first release
 * require node 13.5.0
 * also accept props in the form of a string
 
-##### 0.0.3 - unreleased
+##### 0.0.3
+* bump required node version to 14.2.0
+* update @magic-libraries/uri
+
+##### 0.0.4 - unreleased
 ...
 
 [magic-module-url]: https://github.com/magic-modules/
