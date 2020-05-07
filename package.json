@@ -1,6 +1,6 @@
 {
   "name": "@magic-modules/sound-cloud",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Wizards & Witches",
   "description": "@magic SoundCloud module. embeds soundcloud tracks, playlist and user widgets",
   "homepage": "https://magic-modules.github.io/sound-cloud",
