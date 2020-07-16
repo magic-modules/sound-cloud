@@ -1,7 +1,6 @@
 export const state = {
   title: '@magic-modules/sound-cloud',
   description: 'embeds soundcloud tracks, playlist and user widgets.',
-
   logotext: 'SoundCloud',
 
   menu: [
