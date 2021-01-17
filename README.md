@@ -75,7 +75,10 @@ first release
 * bump required node version to 14.2.0
 * update @magic-libraries/uri
 
-##### 0.0.4 - unreleased
+##### 0.0.4
+bump required node version to 14.15.4
+
+##### 0.0.5 - unreleased
 ...
 
 [magic-module-url]: https://github.com/magic-modules/
