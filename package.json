@@ -32,7 +32,7 @@
     "src"
   ],
   "dependencies": {
-    "@magic-libraries/uri": "0.0.3"
+    "@magic-libraries/uri": "0.0.4"
   },
   "devDependencies": {
     "@magic-modules/git-badges": "0.0.10",
