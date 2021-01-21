@@ -78,7 +78,10 @@ first release
 ##### 0.0.4
 bump required node version to 14.15.4
 
-##### 0.0.5 - unreleased
+##### 0.0.5
+update dependencies
+
+##### 0.0.6 - unreleased
 ...
 
 [magic-module-url]: https://github.com/magic-modules/
