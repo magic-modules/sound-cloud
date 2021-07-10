@@ -19,6 +19,10 @@ export const View = state => [
 
   p('in a page or module View'),
 
+  h4('javascript'),
+  Pre('SoundCloud(599883213)'),
+
+  h4('markdown / html'),
   Pre('<SoundCloud>599883213</SoundCloud>'),
 
   p('renders'),
@@ -29,6 +33,10 @@ export const View = state => [
 
   p('the track type shows a single track'),
 
+  h4('javascript'),
+  Pre("SoundCloud({ type: 'track', id: 599883213 })"),
+
+  h4('markdown / html'),
   Pre('<SoundCloud type="track" id="599883213"></SoundCloud>'),
 
   p('renders'),
@@ -39,6 +47,10 @@ export const View = state => [
 
   p('the playlists type shows a playlist of songs'),
 
+  h4('javascript'),
+  Pre("SoundCloud({ type: 'playlist', id: 641153793 })"),
+
+  h4('markdown / html'),
   Pre('<SoundCloud type="playlist" id="641153793"></SoundCloud>'),
 
   p('renders'),
@@ -49,6 +61,11 @@ export const View = state => [
 
   p('the users type shows a user profile.'),
 
+
+  h4('javascript'),
+  Pre("SoundCloud({ type: 'user', id: 151832569 })"),
+
+  h4('markdown / html'),
   Pre('<SoundCloud type="user" id="151832569"></SoundCloud>'),
 
   p('renders'),
