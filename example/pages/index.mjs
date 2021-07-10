@@ -119,6 +119,7 @@ SoundCloud({
       text: 'example directory',
       to: 'https://github.com/magic-modules/sound-cloud/tree/master/example',
     }),
-    ' and gets built and published to github using [@magic/core](https:/ / github.com / magic / core)',
+    ' and gets built and published to github using ',
+    Link({ text: '@magic/core', to: 'https://github.com/magic/core/' }),
   ]),
 ]
